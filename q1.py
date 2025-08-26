@@ -1,3 +1,4 @@
+# task 1
 def swap(x,y):
     try:
         diff = float(x)- float(y)
@@ -5,5 +6,6 @@ def swap(x,y):
     except ValueError:
         print ("-1")
 
+# task 2
 print (swap("Apple",10))
 print (swap(9,17))
